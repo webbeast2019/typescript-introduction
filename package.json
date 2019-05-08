@@ -1,0 +1,17 @@
+{
+  "name": "nodemon-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mytypescript.ts.js",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "dev": "nodemon --exec ts-node index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/lodash": "^4.14.123",
+    "@types/node": "^11.13.8",
+    "lodash": "^4.17.11"
+  }
+}
